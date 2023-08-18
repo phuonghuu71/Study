@@ -5,12 +5,13 @@ import {
   UseCallbackStudycase,
   UseContextStudycase,
   UseMemoStudycase,
+  UseRefStudycase,
 } from '@study/react-study';
 
 export function App() {
   return (
     <div>
-      <UseContextStudycase />
+      <UseRefStudycase />
     </div>
   );
 }

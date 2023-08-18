@@ -18,7 +18,7 @@ export function UseContextStudycase(props: UseContextStudycaseProps) {
   return (
     <div className={styles['container']}>
       {/* The Provider will provide the value for the Consumer to use */}
-      {/* If Dashboard isn't wrapped inside of this, the Consumer will receive undefined value */}
+      {/* If Dashboard isn't wrapped inside of this, the Consumer will receive undefined  value */}
       <DashboardContext.Provider value={user}>
         <Dashboard />
       </DashboardContext.Provider>
