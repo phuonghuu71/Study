@@ -30,6 +30,8 @@ function shuffle(array: string[]) {
 export function UseCallbackStudycase(props: UseCallbackStudycaseProps) {
   const [users, setUsers] = useState(allUsers);
 
+  console.log('re-render');
+
   // functions are different from every render by default
   // function === function will return false
   // useCallback will wrap your function and return a new memorized function

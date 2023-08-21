@@ -11,7 +11,7 @@ import {
 export function App() {
   return (
     <div>
-      <UseRefStudycase />
+      <UseCallbackStudycase />
     </div>
   );
 }

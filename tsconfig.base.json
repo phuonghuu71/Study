@@ -15,7 +15,13 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@study/react-study": ["libs/react-study/src/index.ts"]
+      "@study/data-access": ["libs/data-access/src/index.ts"],
+      "@study/feature": ["libs/feature/src/index.ts"],
+      "@study/feature/server": ["libs/feature/src/server.ts"],
+      "@study/react-study": ["libs/react-study/src/index.ts"],
+      "@study/ui": ["libs/ui/src/index.ts"],
+      "@study/ui/server": ["libs/ui/src/server.ts"],
+      "@study/util": ["libs/util/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
