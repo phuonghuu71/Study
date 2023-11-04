@@ -1,10 +1,6 @@
 import React from 'react';
 
-export default function AddTask({
-  onAddTask,
-}: {
-  onAddTask: (text: string) => void;
-}) {
+function AddTask({ onAddTask }: { onAddTask: (text: string) => void }) {
   const [input, setInput] = React.useState<string>('');
 
   return (
@@ -18,3 +14,5 @@ export default function AddTask({
     </div>
   );
 }
+
+export default React.memo(AddTask);

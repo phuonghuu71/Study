@@ -1,9 +1,9 @@
-import { UseReducerStudycase } from '@study/react-study';
+import { SwapWithout3rdParameter } from '@study/react-study';
 
 export function App() {
   return (
     <div>
-      <UseReducerStudycase />
+      <SwapWithout3rdParameter />
     </div>
   );
 }
